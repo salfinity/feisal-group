@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <Title title="Welcome to Feisal Group." className="text-4xl" />
             <p className="mt-6 text-lg text-gray-600">
-              a dynamic conglomerate shaping the landscape of Kenya's business
+              a dynamic conglomerate shaping the landscape of Kenya’s business
               community. Founded on the principles of innovation, integrity, and
               excellence, From the pioneering Hussein Driving School, which
               traces its origins to the visionary leadership of the late Cllr.

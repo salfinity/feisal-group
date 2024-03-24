@@ -15,7 +15,7 @@ const AboutUs = () => {
           <Title title="About Feisal Group:" className="text-white text-2xl" />
           <p className="mt-2 text-lg text-gray-400">
             Feisal Group stands as a testament to the vision, resilience, and
-            entrepreneurial spirit that define Kenya's vibrant business
+            entrepreneurial spirit that define Kenya&apos;s vibrant business
             landscape. Established in the 1990s by the late Cllr. Hussein
             Swaleh, and further developed by his son Feisal Hussein Swaleh,
             Feisal Group has evolved into a multifaceted conglomerate comprising

@@ -17,9 +17,10 @@ const Businesses = () => {
             className="text-2xl"
           />
           <p className="mt-2 text-lg text-gray-600">
-            Welcome to Feisal Group, where innovation meets excellence. We're
-            proud to introduce our diverse range of businesses, each committed
-            to delivering exceptional services and making a positive impact.
+            Welcome to Feisal Group, where innovation meets excellence.
+            We&apos;re proud to introduce our diverse range of businesses, each
+            committed to delivering exceptional services and making a positive
+            impact.
             <span className="text-[#990099] ml-3">Click to be diverted:</span>
           </p>
         </div>
