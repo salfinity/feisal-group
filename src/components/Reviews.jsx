@@ -12,12 +12,12 @@ const Reviews = () => {
     >
       <Container>
         <Title
-          title="Everyone is changing their life with Investa."
+          title="Everyone is changing their life with Feisal-group."
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         />
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          Thousands of people have doubled their net-worth in the last 30 days.
+          Thousands of people have doubled their potential in the last 30 days.
         </p>
         <ReviewGrid />
       </Container>
