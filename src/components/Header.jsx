@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Container from "./Container";
-import Logo from "./Logo";
+import LogoTwo from "./LogoTwo";
 import NavLinks from "./NavLinks";
 import Button from "./Button";
 import { Popover } from "@headlessui/react";
@@ -48,7 +48,7 @@ const Header = () => {
         <Container className="relative z-50 flex justify-between py-8">
           {/* Logo */}
           <div className="relative z-10 flex items-center gap-16">
-            <Logo />
+            <LogoTwo />
           </div>
           {/* NavLinks */}
           <div className="hidden lg:flex lg:gap-10 items-center">
@@ -60,7 +60,7 @@ const Header = () => {
               Get Advice
             </Button>
             <Button href="#" className="hidden lg:block">
-              Hire me
+              Hire us now
             </Button>
             {/* Mobile NavLinks */}
             <Popover className="lg:hidden">
@@ -99,7 +99,7 @@ const Header = () => {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
+                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-[#3c3a3c]"
                         >
                           <div className="space-y-4">
                             {navData.map(({ _id, title, href }) => (
@@ -112,7 +112,7 @@ const Header = () => {
                             <Button href="#" variant="outline">
                               Get Advice
                             </Button>
-                            <Button href="#">Hire me</Button>
+                            <Button href="#">Hire us now</Button>
                           </div>
                         </Popover.Panel>
                       </>

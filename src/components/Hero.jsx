@@ -20,17 +20,25 @@ const Hero = () => {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           {/* Right side */}
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <Title title="Invest at the perfect time." className="text-4xl" />
+            <Title title="Welcome to Feisal Group." className="text-4xl" />
             <p className="mt-6 text-lg text-gray-600">
-              By leveraging insights from our network of industry insiders, you
-              will know exactly when to buy to maximize profit, and exactly when
-              to sell to avoid painful losses.
+              a dynamic conglomerate shaping the landscape of Kenya's business
+              community. Founded on the principles of innovation, integrity, and
+              excellence, From the pioneering Hussein Driving School, which
+              traces its origins to the visionary leadership of the late Cllr.
+              Hussein Swale, to the forward-thinking ventures of Feisal and
+              Partners Real Estate Agents, Feisal and Partners Usafi, and
+              Al-Injaz Institute of Islamic Finance Ltd., our group embodies a
+              legacy of growth and empowerment. With a steadfast commitment to
+              meeting the evolving needs of our society, Feisal Group continues
+              to lead by example, forging new paths and fostering opportunities
+              for progress across Kenya.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-4">
-              <Image className="w-32 h-auto" src={playStore} alt="playImg" />
+              {/* <Image className="w-32 h-auto" src={playStore} alt="playImg" /> */}
               <Button variant="outline" href="https://youtu.be/vviFia-Stqk">
                 <BsPlayCircle className="text-xl" />
-                <span className="ml-2.5">Watch the video</span>
+                <span className="ml-2.5">Watch the video about us</span>
               </Button>
             </div>
           </div>
@@ -43,7 +51,7 @@ const Hero = () => {
               </PhoneFrame>
             </div>
           </div>
-          <ExtraLogos />
+          {/* ExtraLogos /> */}
         </div>
       </Container>
     </section>

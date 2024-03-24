@@ -9,133 +9,139 @@ import {
 
 export const navData = [
   { _id: 101, title: "Home", href: "#home" },
-  { _id: 102, title: "Features", href: "#features" },
-  { _id: 103, title: "Account", href: "#account" },
+  { _id: 102, title: "About Us", href: "#AboutUs" },
+  { _id: 103, title: "Businesses", href: "#Businesses" },
   { _id: 104, title: "Reviews", href: "#reviews" },
 ];
 
 export const accountData = [
   {
-    name: "Invest any amount",
+    name: "Hussein Driving School",
     description:
-      "Whether it is $1 or $1,000,000, we can put your money to work for you.",
+      "Located in Nairobi, Embu and Ishiara. Offers a wide range of driving courses.",
     icon: DeviceArrowIcon,
   },
   {
-    name: "Build a balanced profile",
+    name: "Feisal & Partners Real Estate Agents",
     description:
-      "Invest in different industries to find the most opportunities to win huge.",
+      "Feisal & Partners Real Estate Agents offers a wide range of real estate services.",
     icon: DeviceCardsIcon,
   },
   {
-    name: "Trade in real-time",
+    name: "Feisal & Partners Usafi",
     description:
-      "Get insider tips on big stock moves and act on them within seconds.",
+      "Feisal & Partners Usafi offers a wide range of home cleaning services.",
     icon: DeviceClockIcon,
   },
   {
-    name: "Profit from your network",
+    name: "Al-Injaz Institute of Islamic Finance Ltd.",
     description:
-      "Invite new insiders to get tips faster and beat even other Investa users.",
+      "Al-Injaz Institute of Islamic Finance Ltd. offers a wide range of islamic finance services.",
     icon: DeviceListIcon,
   },
   {
-    name: "Encrypted and anonymized",
+    name: "Al-Feisal FC",
     description:
-      "Cutting-edge security technology that even the NSA does not know about keeps you hidden.",
+      "Al-Feisal Football Club is a professional football club based in Nairobi, Kenya.",
     icon: DeviceLockIcon,
   },
   {
-    name: "Progress tracking",
+    name: "EmbUber cabs",
     description:
-      "Watch your investments grow exponentially, leaving other investors in the dust.",
+      "EmbUber cabs offers a wide range of transportation services. it is an online application like Uber.",
     icon: DeviceChartIcon,
   },
 ];
 
 export const reviews = [
   {
-    title: "It really works.",
-    body: "I downloaded Investa today and turned $5000 into $25,000 in half an hour.",
-    author: "CrazyInvestor",
+    title: "Great Driving School Experience!",
+    body: "I had a great experience at Hussein Driving School. The instructors were patient and supportive, and the lessons were structured to help me learn at my own pace. I feel confident and prepared to hit the road thanks to their excellent training.",
+    author: "Michael Brown",
     rating: 5,
   },
   {
-    title: "You need this app.",
-    body: "I did not understand the stock market at all before Investa. I still do not, but at least I am rich now.",
-    author: "CluelessButRich",
+    title: "Smooth Real Estate Transaction!",
+    body: "Feisal & Partners Real Estate Agents made the process of selling my property seamless and stress-free. They provided expert guidance and assistance every step of the way, ensuring that I got the best possible deal. I highly recommend their services to anyone looking to buy or sell real estate.",
+    author: "Jennifer Lee",
     rating: 5,
   },
   {
-    title: "This should not be legal.",
-    body: "Investa makes it so easy to win big in the stock market that I can not believe it is actually legal.",
-    author: "LivingDaDream",
+    title: "Efficient Home Cleaning Services!",
+    body: "Feisal & Partners Usafi did an outstanding job cleaning my home. The team was professional, thorough, and respectful of my space. I was impressed by their attention to detail and commitment to delivering exceptional results. I will definitely be using their services again in the future.",
+    author: "David Johnson",
+    rating: 5,
+  },
+  {
+    title: "Informative Islamic Finance Courses!",
+    body: "I enrolled in courses at Al-Injaz Institute of Islamic Finance Ltd. and found them to be highly informative and engaging. The instructors provided valuable insights into Islamic finance principles and practices, and I gained a deeper understanding of the industry. I would recommend these courses to anyone interested in learning about Islamic finance.",
+    author: "Fatima Ahmed",
     rating: 4,
   },
   {
-    title: "Screw financial advisors.",
-    body: "I barely made any money investing in mutual funds. With Investa, I am doubling my net-worth every single month.",
-    author: "JordanBelfort1962",
-    rating: 5,
-  },
-  {
-    title: "I love it!",
-    body: "I started providing insider information myself and now I get new insider tips every 5 minutes. I do not even have time to act on all of them. New Lamborghini is being delivered next week!",
-    author: "MrBurns",
-    rating: 3,
-  },
-  {
-    title: "Too good to be true.",
-    body: "I was making money so fast with Investa that it felt like a scam. But I sold my shares and withdrew the money and it is really there, right in my bank account. This app is crazy!",
-    author: "LazyRich99",
-    rating: 2,
-  },
-  {
-    title: "Wish I could give 6 stars",
-    body: "This is literally the most important app you will ever download in your life. Get on this before it is so popular that everyone else is getting these tips too.",
-    author: "SarahLuvzCash",
-    rating: 5,
-  },
-  {
-    title: "Bought an island.",
-    body: "Yeah, you read that right. Want your own island too? Get Investa.",
-    author: "ScroogeMcduck",
-    rating: 5,
-  },
-  {
-    title: "No more debt!",
-    body: "After 2 weeks of trading on Investa I was debt-free. Why did I even go to school at all when Investa exists?",
-    author: "BruceWayne",
-    rating: 1,
-  },
-  {
-    title: "I am 13 and I am rich.",
-    body: "I love that with Investa transaction anonymization I could sign up and start trading when I was 12 years old. I had a million dollars before I had armpit hair!",
-    author: "RichieRich",
-    rating: 5,
-  },
-  {
-    title: "Started an investment firm.",
-    body: "I charge clients a 3% management fee and just throw all their investments into Investa. Easy money!",
-    author: "TheCountOfMonteChristo",
-    rating: 5,
-  },
-  {
-    title: "It is like a superpower.",
-    body: "Every tip Investa has sent me has paid off. It is like playing Blackjack but knowing exactly what card is coming next!",
-    author: "ClarkKent",
+    title: "Reliable Transportation Option!",
+    body: "EmbUber cabs is my go-to transportation option whenever I need to get around. The service is reliable, the drivers are friendly, and the vehicles are always clean and comfortable. I appreciate the convenience and peace of mind that EmbUber provides, and I highly recommend them to others.",
+    author: "Daniel Smith",
     rating: 4,
   },
   {
-    title: "Quit my job.",
-    body: "I downloaded Investa three days ago and quit my job today. I can not believe no one else thought to build a stock trading app that works this way!",
-    author: "GeorgeCostanza",
+    title: "Top-notch Driving Instruction!",
+    body: "I recently completed my driving lessons at Hussein Driving School, and I couldn't be happier with the experience. The instructors were knowledgeable, patient, and supportive, and they helped me build my confidence behind the wheel. I passed my driving test with flying colors, thanks to their expert guidance.",
+    author: "Jessica Wilson",
     rating: 5,
   },
   {
-    title: "Do not download this app",
-    body: "Unless you want to have the best life ever! I am literally writing this from a yacht.",
-    author: "JeffBezos",
-    rating: 3,
+    title: "Excellent Real Estate Services!",
+    body: "Feisal & Partners Real Estate Agents went above and beyond to help me find the perfect home. They listened to my needs and preferences, and they were proactive in presenting me with suitable options. The entire process was smooth and efficient, and I'm thrilled with the outcome.",
+    author: "Andrew Thompson",
+    rating: 5,
+  },
+  {
+    title: "Outstanding Home Cleaning Team!",
+    body: "Feisal & Partners Usafi did an incredible job cleaning my home from top to bottom. The team was thorough, efficient, and professional, and they left no corner untouched. I was impressed by their attention to detail and commitment to delivering high-quality service. I will definitely be using their services again in the future.",
+    author: "Sophia Martinez",
+    rating: 5,
+  },
+  {
+    title: "Informative Islamic Finance Courses!",
+    body: "I enrolled in courses at Al-Injaz Institute of Islamic Finance Ltd. and found them to be highly informative and engaging. The instructors provided valuable insights into Islamic finance principles and practices, and I gained a deeper understanding of the industry. I would recommend these courses to anyone interested in learning about Islamic finance.",
+    author: "Mohammed Ali",
+    rating: 4,
+  },
+  {
+    title: "Reliable Transportation Option!",
+    body: "EmbUber cabs is my go-to transportation option whenever I need to get around. The service is reliable, the drivers are friendly, and the vehicles are always clean and comfortable. I appreciate the convenience and peace of mind that EmbUber provides, and I highly recommend them to others.",
+    author: "Laura Johnson",
+    rating: 4,
+  },
+  {
+    title: "Great Driving School Experience!",
+    body: "I had a great experience at Hussein Driving School. The instructors were patient and supportive, and the lessons were structured to help me learn at my own pace. I feel confident and prepared to hit the road thanks to their excellent training.",
+    author: "Christopher Brown",
+    rating: 5,
+  },
+  {
+    title: "Smooth Real Estate Transaction!",
+    body: "Feisal & Partners Real Estate Agents made the process of selling my property seamless and stress-free. They provided expert guidance and assistance every step of the way, ensuring that I got the best possible deal. I highly recommend their services to anyone looking to buy or sell real estate.",
+    author: "Rebecca Lee",
+    rating: 5,
+  },
+  {
+    title: "Efficient Home Cleaning Services!",
+    body: "Feisal & Partners Usafi did an outstanding job cleaning my home. The team was professional, thorough, and respectful of my space. I was impressed by their attention to detail and commitment to delivering exceptional results. I will definitely be using their services again in the future.",
+    author: "James Johnson",
+    rating: 5,
+  },
+  {
+    title: "Informative Islamic Finance Courses!",
+    body: "I enrolled in courses at Al-Injaz Institute of Islamic Finance Ltd. and found them to be highly informative and engaging. The instructors provided valuable insights into Islamic finance principles and practices, and I gained a deeper understanding of the industry. I would recommend these courses to anyone interested in learning about Islamic finance.",
+    author: "Aisha Ahmed",
+    rating: 4,
+  },
+  {
+    title: "Reliable Transportation Option!",
+    body: "EmbUber cabs is my go-to transportation option whenever I need to get around. The service is reliable, the drivers are friendly, and the vehicles are always clean and comfortable. I appreciate the convenience and peace of mind that EmbUber provides, and I highly recommend them to others.",
+    author: "David Smith",
+    rating: 4,
   },
 ];

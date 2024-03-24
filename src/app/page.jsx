@@ -1,6 +1,6 @@
-import Account from "@/components/Account";
+import Businesses from "@/components/Businesses";
 import CallToAction from "@/components/CallToAction";
-import Feature from "@/components/Feature";
+import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
 import Reviews from "@/components/Reviews";
 
@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Feature />
-      <Account />
+      <AboutUs />
+      <Businesses />
       <CallToAction />
       <Reviews />
     </main>

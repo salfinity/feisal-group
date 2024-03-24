@@ -5,10 +5,11 @@ import AppScreen from "./AppScreen";
 import clsx from "clsx";
 
 const prices = [
-  997.56, 944.34, 972.25, 832.4, 888.76, 834.8, 805.56, 767.38, 861.21, 669.6,
-  694.39, 721.32, 694.03, 610.1, 502.2, 549.56, 611.03, 583.4, 610.14, 660.6,
-  752.11, 721.19, 638.89, 661.7, 694.51, 580.3, 638.0, 613.3, 651.64, 560.51,
-  611.45, 670.68, 752.56,
+  99778.56, 94490.34, 97276.25, 83200.4, 88802.76, 83409.8, 80589.56, 76777.38,
+  86167.21, 66976.6, 69467.39, 72166.32, 69467.03, 61090.1, 50200.2, 54966.56,
+  61109.03, 58300.4, 61099.14, 66076.6, 75254.11, 72154.19, 63856.89, 66133.7,
+  69478.51, 58023.3, 63855.0, 61300.3, 65122.64, 56054.51, 61163.45, 67078.68,
+  75204.56,
 ];
 
 const maxPrice = Math.max(...prices);
@@ -164,9 +165,9 @@ const AppFeature = () => {
         <div className="p-4">
           <div className="flex gap-2">
             <div className="text-xs leading-6 text-gray-500">
-              Investa Labs, Inc.
+              We help you grow.
             </div>
-            <div className="text-sm text-gray-900">$jsx</div>
+            <div className="text-sm text-gray-900">Kes/=</div>
             <svg viewBox="0 0 24 24" className="ml-auto h-6 w-6" fill="none">
               <path
                 d="M5 12a7 7 0 1 1 14 0 7 7 0 0 1-14 0ZM12 9v6M15 12H9"
@@ -183,7 +184,7 @@ const AppFeature = () => {
               <div className="text-2xl tabular-nums tracking-tight text-gray-900">
                 {activeValue.toFixed(2)}
               </div>
-              <div className="text-sm text-gray-900">USD</div>
+              <div className="text-sm text-gray-900">KES</div>
               {percentageChange && (
                 <div
                   className={clsx(
@@ -219,21 +220,21 @@ const AppFeature = () => {
             </div>
             {/*  */}
             <div className="mt-4 rounded-lg bg-blue-500 px-4 py-2 text-center text-sm font-semibold text-white">
-              Trade
+              Work with us
             </div>
             {/*  */}
             <div className="mt-3 divide-y divide-gray-100 text-sm">
               <div className="flex justify-between py-1">
                 <div className="text-gray-500">Open</div>
-                <div className="font-medium text-gray-900">6,387.55</div>
+                <div className="font-medium text-gray-900">604,070.55</div>
               </div>
               <div className="flex justify-between py-1">
                 <div className="text-gray-500">Closed</div>
-                <div className="font-medium text-gray-900">6,487.09</div>
+                <div className="font-medium text-gray-900">980,400.09</div>
               </div>
               <div className="flex justify-between py-1">
                 <div className="text-gray-500">Low</div>
-                <div className="font-medium text-gray-900">6,322.01</div>
+                <div className="font-medium text-gray-900">600,322.01</div>
               </div>
             </div>
           </div>

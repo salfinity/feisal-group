@@ -3,22 +3,24 @@ import Container from "./Container";
 import Title from "./Title";
 import { accountData } from "@/constants";
 
-const Account = () => {
+const Businesses = () => {
   return (
     <section>
       <Container
-        id="account"
+        id="Businesses"
         aria-label="Features for building a portfolio"
         className="py-20 sm:py-32"
       >
         <div className=" mx-auto max-w-2xl sm:text-center">
           <Title
-            title="Now is the time to open your Account."
+            title="Now is the time to work with us."
             className="text-2xl"
           />
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Investa, it is never too late to build your nest egg.
+            Welcome to Feisal Group, where innovation meets excellence. We're
+            proud to introduce our diverse range of businesses, each committed
+            to delivering exceptional services and making a positive impact.
+            <span className="text-[#990099] ml-3">Click to be diverted:</span>
           </p>
         </div>
         <ul
@@ -45,4 +47,4 @@ const Account = () => {
   );
 };
 
-export default Account;
+export default Businesses;

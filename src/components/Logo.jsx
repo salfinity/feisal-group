@@ -6,12 +6,12 @@ const Logo = ({ className, props }) => {
     <Link href={"/"}>
       <h2
         className={clsx(
-          "text-3xl font-bold text-gray-600 hover:text-gray-900 duration-300",
+          "text-3xl font-bold text-[#fdfcfd] hover:text-[#c3c2c3] duration-300",
           className
         )}
         {...props}
       >
-        Investa
+        Feisal-Group
       </h2>
     </Link>
   );
