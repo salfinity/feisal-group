@@ -37,7 +37,7 @@ export default function CeoIntroAndMessage() {
         id="Leadership"
         className="uppercase text-3xl md:text-5xl tracking-[20px] text-center text-purple-600 mx-auto"
       >
-        CEO's Message...
+        CEO&apos;s Message...
       </h2>
       <section className="max-w-8xl mb-28 md:mb-40 flex flex-col items-center space-y-2 justify-center text-center sm:mb-0 scroll-mt-[100rem] h-screen overflow-hidden">
         <BackgroundCircles />
