@@ -69,13 +69,13 @@ export default function CeoIntroAndMessage() {
           animate={{ opacity: 1, y: 0 }}
         >
           <span className="underline-none text-black">
-            MD. FEISAL HUSSEIN SWALEH
+            MD.FEISAL HUSSEIN SWALEH
           </span>
           <Cursor cursorColor="#000000" />
         </motion.h2>
 
         <motion.h1
-          className="px-4 text-lg text-black font-medium !leading-[1.5] md:text-4xl z-10 overflow-hidden"
+          className="px-4 text-lg text-black font-medium !leading-[1.5] md:text-[2rem] z-10 overflow-hidden"
           style={{ maxHeight: "6em", overflow: "hidden" }} // Change height to maxHeight and add overflow: hidden
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -95,10 +95,11 @@ export default function CeoIntroAndMessage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Founder, Group Managing Director{" "}
+              Founder & Group Managing Director{" "}
             </a>
-            philanthropist | President, East African FIFA Football Agents
-            Association | ENTERPRENEURE | Advocate and Lawyer | Islamic Lawyer |
+            | philanthropist | President, East African FIFA Football Agents
+            Association | entrepreneur | Advocate and Lawyer | Advocate in
+            Islamic Law...
           </span>
           <Cursor cursorColor="#000000" />
         </motion.h3>
