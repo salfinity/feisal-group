@@ -69,7 +69,7 @@ export default function CeoIntroAndMessage() {
           animate={{ opacity: 1, y: 0 }}
         >
           <span className="underline-none text-black">
-            CEO FEISAL HUSSEIN SWALEH
+            MD. FEISAL HUSSEIN SWALEH
           </span>
           <Cursor cursorColor="#000000" />
         </motion.h2>
@@ -97,8 +97,8 @@ export default function CeoIntroAndMessage() {
             >
               Founder, Group Managing Director{" "}
             </a>
-            | President, East African FIFA Football Agents Association |
-            ENTERPRENEURE | Advocate and Lawyer | Islamic Lawyer |
+            philanthropist | President, East African FIFA Football Agents
+            Association | ENTERPRENEURE | Advocate and Lawyer | Islamic Lawyer |
           </span>
           <Cursor cursorColor="#000000" />
         </motion.h3>
