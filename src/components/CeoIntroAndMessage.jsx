@@ -64,7 +64,7 @@ export default function CeoIntroAndMessage() {
           </div>
         </div>
         <motion.h2
-          className="px-4 text-2xl uppercase font-thin tracking-[15px] !leading-[1.5] sm:text-4xl z-10"
+          className="px-4 text-lg uppercase font-thin tracking-[15px] !leading-[1.5] md:text-4xl z-10"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -75,8 +75,8 @@ export default function CeoIntroAndMessage() {
         </motion.h2>
 
         <motion.h1
-          className="px-4 text-2xl text-black font-medium !leading-[1.5] sm:text-4xl z-10 overflow-hidden"
-          style={{ height: "3em" }}
+          className="px-4 text-lg text-black font-medium !leading-[1.5] md:text-4xl z-10 overflow-hidden"
+          style={{ maxHeight: "6em", overflow: "hidden" }} // Change height to maxHeight and add overflow: hidden
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -85,7 +85,7 @@ export default function CeoIntroAndMessage() {
         </motion.h1>
 
         <motion.h3
-          className="py-2 px-4 text-xl uppercase text-black  font-thin !leading-[1.5] sm:text-2xl z-10"
+          className="py-2 px-4 text-sm uppercase text-black  font-thin !leading-[1.5] md:text-2xl z-10"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -95,7 +95,7 @@ export default function CeoIntroAndMessage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              CEO FEISAL-GROUP{" "}
+              Founder, Group Managing Director{" "}
             </a>
             | President, East African FIFA Football Agents Association |
             ENTERPRENEURE | Advocate and Lawyer | Islamic Lawyer |
